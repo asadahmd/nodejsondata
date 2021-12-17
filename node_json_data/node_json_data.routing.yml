@@ -1,0 +1,17 @@
+node_json_data.api_key_form:
+  path: '/admin/config/node_json_data/apikey'
+  defaults:
+    _form: '\Drupal\node_json_data\Form\ApiKeyForm'
+    _title: 'ApiKeyForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+node_json_data.api_key_controller_getApi:
+  path: '/data/{apikey}/{node_id}'
+  defaults:
+    _controller: '\Drupal\node_json_data\Controller\ApiKeyController::getApi'
+    _title: 'Api Key Authentication'
+  requirements:
+    _permission: 'access content'
