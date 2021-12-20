@@ -1,6 +1,0 @@
-node_json_data.api_key_form:
-  title: 'ApiKeyForm'
-  route_name: node_json_data.api_key_form
-  description: 'A description for the menu entry'
-  parent: system.admin_config_system
-  weight: 99

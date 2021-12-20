@@ -1,5 +1,0 @@
-name: 'nodejsondata'
-type: module
-description: 'A custom module for api key submission'
-core: 8.x
-package: 'Custom'
